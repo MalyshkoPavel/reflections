@@ -1,20 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	Git creates a workplace and It's starting to watch for changes in files of this workplace. It's a important part of controlling.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-в рабочей области находятся все файлы, в зоне подготовке - файлы которые уйдут в коммит
+	Standing area allows to make all changes and to prepare files to commit. It decrise chance of mistakes.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	Before commit, you can do all changes in files, what you need, for a logical change all repository.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches is good instrument for installing new features or fixing bugs. 
+
 How do the diagrams help you visualize the branch structure?
+
+	It looks like fils directory in OS. Very conveniently.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The result will be a new commit with changes of both branches, and diagram will show what changes went from which branche
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+manually?	
+
+	Automatic merging saves time, but if merging has conflict only manually correct will help
